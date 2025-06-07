@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portpholio-aman kumar morya</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgb(251, 249, 249);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            background-color: #b0acab;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+       
+        nav {
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+          }
+      
+          nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            transition: color 0.3s;
+          }
+      
+          nav a:hover {
+            color: #ff6b6b;
+          }
+        
+        .title {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-top: 0;
+        }
+        
+        section {
+            margin: 30px 0;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        
+        .personal-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .info-item {
+            width: 48%;
+            margin-bottom: 10px;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .skill-category {
+            width: 48%;
+            margin-right: 2%;
+        }
+        
+        .education-item, .experience-item {
+            margin-bottom: 20px;
+        }
+        
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .hobbies-list {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+        }
+        
+        .hobbies-list li {
+            background: #3498db;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+        
+        @media (max-width: 600px) {
+            .info-item, .skill-category {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">personal-info</a>
+        <a href="#skills">skills</a>
+        <a href="#Education">Education</a>
+        <a href="#work exp">work exp</a>
+        <a href="#hobbies">hobbies</a>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Aman kumar morya</h1>
+            <p class="title">Web Developer & Designer</p>
+        </header>
+        
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <div class="personal-info">
+                <div class="info-item">
+                    <strong>Email:</strong> morya....@example.com
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong> (123) 456-7890
+                </div>
+                <div class="info-item">
+                    <strong>Address:</strong> 123 Main St, City, Country
+                </div>
+                <div class="info-item">
+                    <strong>Date of Birth:</strong> January 1, 1990
+                </div>
+               
+               
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>c++, java , c</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Professional Skills</h3>
+                    <ul>
+                        <li>Project Management</li>
+                        <li>Problem Solving</li>
+                        <li>Communication</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>B.TECH in computer science</h3>
+                <p class="institution">uttrakhand technical institute</p>
+                <p class="date">2023 - 2024</p>
+                <p>Specialized in Web Technologies and Artificial Intelligence and automation</p>
+            </div>
+           
+        </section>
+        
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <h3>intern at collegetips.in as a web devloper</h3>
+                <
+                <ul>
+                    <li>work on diffrent projects like making web sites for pet freindly society and many other</li>
+                   
+                </ul>
+            </div>
+            
+        </section>
+        
+        <section id="hobbies">
+            <h2>Hobbies & Interests</h2>
+            <ul class="hobbies-list">
+                <li>mix martial arts</li>
+                <li>Reading</li>
+                <li>Traveling</li>
+                <li>Cooking</li>
+                <li>Open Source Contributions</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
